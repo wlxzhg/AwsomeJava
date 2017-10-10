@@ -1,4 +1,4 @@
-package com.xiaozhigang.util;
+package cn.xiaozhigang.util;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

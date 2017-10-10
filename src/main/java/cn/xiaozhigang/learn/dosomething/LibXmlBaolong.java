@@ -1,6 +1,6 @@
 package cn.xiaozhigang.learn.dosomething;
 
-import com.xiaozhigang.util.HttpGet;
+import cn.xiaozhigang.util.HttpGet;
 
 public class LibXmlBaolong {
     public static void main(String[] args) {
