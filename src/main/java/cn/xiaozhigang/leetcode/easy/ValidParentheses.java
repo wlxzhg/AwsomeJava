@@ -9,7 +9,7 @@ public class ValidParentheses {
 	if(s.length() == 0) return false;
 	String left = "({[";
 	String right = ")}]";
-	Stack<Character> stack = new Stack<>();
+	Stack<Character> stack = new Stack<Character>();
 	for(int i = 0; i < s.length(); i++) {
 	  if(left.indexOf(s.charAt(i)) != -1)
 	    stack.push(s.charAt(i));

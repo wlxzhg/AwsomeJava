@@ -8,7 +8,7 @@ public class RomamToInt {
 	public static int romanToInt(String s) {
 		int result = 0;
 		char [] sArr = s.toCharArray();
-		Map<Character, Integer> map = new HashMap<>(); 
+		Map<Character, Integer> map = new HashMap<Character, Integer>();
 		map.put('I', 1); 
 		map.put('X', 10); 
 		map.put('C', 100);
