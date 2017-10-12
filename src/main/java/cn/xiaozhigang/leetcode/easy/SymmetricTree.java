@@ -9,7 +9,12 @@ class TreeNode {
     TreeNode(int x) { val = x; }
 }
 
+
 public class SymmetricTree {
+
+    /**
+     * Accepted
+     * */
     public void dfs(int index,TreeNode root,HashMap<Integer,TreeNode> map) {
         if(root == null) return;
         if(root.left != null) {
